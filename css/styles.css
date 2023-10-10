@@ -898,7 +898,7 @@ label{
 
 
 .checkbox-text{
-  color: #778899, #8e8f99;
+  color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -916,6 +916,7 @@ label{
   align-items: center;
   justify-content: center;
   fill: transparent;
+
 }
 
 
@@ -925,6 +926,12 @@ label{
   line-height: 1.3;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
+}
+
+
+
+.form-name-label:focus-within {
+  color: #2196f3;
 }
 
 
