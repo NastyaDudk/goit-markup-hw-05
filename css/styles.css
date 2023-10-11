@@ -868,7 +868,7 @@
   line-height: 1.5;
   outline: transparent;
   letter-spacing: 0.04em;
-  width: 264px;
+ 
 }
 
 .form-input:focus{
@@ -884,8 +884,11 @@
 }
 
 
-.icon-person:focus{
-  fill: #4D5AE5;
+.checkbox:checked + .checkbox-text > 
+.checkbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .form-name{
@@ -974,7 +977,7 @@ label{
 
 .input:cheked 
 .checkbox-span{
-  background-color:  #404bbf; 
+  background-color: #404bbf; 
   border: none;
   fill: #F4F4FD;
 }
