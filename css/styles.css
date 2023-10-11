@@ -883,6 +883,14 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.icon-person:hover{
+  fill: #ffffff;
+}
+
+
+.icon-person:focus{
+  fill: #ffffff;
+}
 
 .checkbox:checked + .checkbox-text > 
 .checkbox-span {
@@ -890,6 +898,9 @@
   border: none;
   fill: #f4f4fd;
 }
+
+
+
 
 .form-name{
   margin-bottom: 8px;
@@ -1010,14 +1021,17 @@ label{
   letter-spacing: 0.04em;
 }
 
-.form-contacts-button:hover{
+.close-but:hover{
   fill: #ffffff;
 }
 
-.form-contacts-button:focus{
+.close-but:focus{
   fill: #ffffff;
 }
 
 
-
-
+.form-input:focus
+.icon-person{
+  fill: #4D5AE5;
+}
+  
