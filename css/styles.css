@@ -670,12 +670,45 @@
   }
 
 
+  .input-footer{
+    width: 264px; 
+    height: 40px; 
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px; 
+    line-height: 1.5; 
+    letter-spacing: 0.04em; 
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff; 
+  }
+
+
+  .input-footer::placeholder{
+    color: #ffffff;
+  }
+
   
   /* contacts and buttons*/
 
 
+
+
 .sub-icon{
   margin-left: 16px;
+}
+
+
+.checkbox-span{
+  background-color: #404bbf; 
+  border: none;
+ 
+}
+
+
+.sub-icon:focus{
+  fill: #4D5AE5; 
 }
   
   .word-subscribe{
@@ -702,18 +735,6 @@
     gap: 24px;
   }
   
-  .form-input{
-    background-color: transparent;
-    width: 264px;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid #ffffff;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.15));
-  }
 
 
 .button-sub{
@@ -783,7 +804,12 @@
   border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-but:hover,
+.close-but:hover{
+  background-color: #404bbf; 
+  border: none; 
+}
+
+
 .close-but:focus{
   background-color: #404bbf; 
   border: none; 
@@ -794,7 +820,11 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-icon:hover,
+.close-icon:hover{
+  fill: #ffffff;
+}
+
+
 .close-icon:focus{
   fill: #ffffff;
 }
@@ -824,20 +854,6 @@
   position: relative;
 }
 
-
-.input-footerz{
-  border:  1px solid #ffffff; 
-  padding-left: 16px;
-  width: 264px;
-  height: 40px; 
-  background-color: transparent;
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px; 
-  color: #ffffff; 
-}
 
 .form-input{
   width: 100%;
